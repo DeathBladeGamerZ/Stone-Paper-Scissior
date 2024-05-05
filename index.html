@@ -12,32 +12,32 @@
         <p class="namec">Computer</p>
         <div class="move">
             <p>Moves Left</p>
-            <p>10</p>
+            <p id="moveleft">10</p>
         </div>
         <p class="namep">Player</p>
     </div>
     <div class="show">
-        <div class="comps"> <img class="imgshow" src="rock.png" /></div>
+        <div class="comps"> <img id="compshow" class="imgshow" src="rock.png" /></div>
         <div class="vs"><h1><b><i>Vs</i></b></h1></div>
-        <div class="players"><img class="imgshow"src="rock.png" /></div>
+        <div class="players"><img id="playershow" class="imgshow"src="rock.png" /></div>
     </div>
     <div class="scoreboard">
-        <div class="userscore">
-            <p>0</p>
+        <div >
+            <p class="userscore">0</p>
             <p>You</p>
         </div>
-        <div class="compscore">
-            <p>0</p>
+        <div >
+            <p class="compscore">0</p>
             <p>Comp</p>
         </div>
     </div>
-    <div class="choies">
-        <div class="stone"><img src="rock.png" /></div>
-        <div class="paper"><img src="paper.png" /></div>
-        <div class="scissiors"><img src="scissors.png" /></div>
+    <div class="choices">
+        <div class="choice" id="stone"><img  src="rock.png" /></div>
+        <div class="choice" id="paper"><img  src="paper.png" /></div>
+        <div class="choice" id="scissors"><img  src="scissors.png" /></div>
     </div>
     <div class="foot">
-        <p1 >Pick Your Move</p1>
+        <p1 class="msg" >Pick Your Move</p1>
     </div>
 </body>
 <script src="game.js"></script>

@@ -23,14 +23,14 @@ header{
     margin-top: 10px;
 }
 .namec{
-    font-size: 28px;
+    font-size: 25px;
     padding-right: 10px;
 }
 .move {
-    font-size: 25px;
+    font-size: 22px;
 }
 .namep {
-    font-size: 28px;
+    font-size: 25px;
     padding-left: 10px;
 }
 .show {
@@ -60,18 +60,18 @@ img {
     border-radius: 50%;
   }
 .imgshow {
-    height: 225px;
-    width: 225px;
+    height: 200px;
+    width: 200px;
 }
 .scoreboard {
     display: flex;
     align-items:center;
     justify-content: center;
     gap: 20px;
-    font-size: 30px;
+    font-size: 25px;
 
 }
-.choies {
+.choices {
     margin-top: 30px;
     display: flex;
     align-items: center;
