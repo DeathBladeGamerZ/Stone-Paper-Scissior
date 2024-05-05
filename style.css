@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    background-color: rgb(177, 254, 254);
+}
+header{
+    text-align: center;
+    justify-content: center;
+    background-color: crimson;
+    color:white;
+    height: 60px;
+    align-items: center;
+    padding-top: 10px;
+}
+.namecard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8cm;
+    margin-top: 10px;
+}
+.namec{
+    font-size: 28px;
+    padding-right: 10px;
+}
+.move {
+    font-size: 25px;
+}
+.namep {
+    font-size: 28px;
+    padding-left: 10px;
+}
+.show {
+    display: flex;
+    gap:8cm;
+    align-items:center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.comps {
+    display : flex;
+    align-items:center;
+    justify-content: center;
+    border-radius: 50%;
+
+}
+.player {
+    display : flex;
+    align-items:center;
+    justify-content: center;
+    border-radius: 50%;
+}
+img {
+    height: 75px;
+    width: 75px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+.imgshow {
+    height: 225px;
+    width: 225px;
+}
+.scoreboard {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 30px;
+
+}
+.choies {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.foot {
+    margin-top: 20px;
+    font-size: 20px;
+}
