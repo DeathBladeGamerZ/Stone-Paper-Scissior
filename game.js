@@ -9,9 +9,21 @@ let winmsgdiv = document.querySelector(".winmsgdiv");
 let winmsg1 = document.querySelector(".winmsg1");
 let winmsg2 = document.querySelector(".winmsg2");
 
-let move = 10;
+const moves = () => {
+    let moves = prompt("Enter Total no of Moves","10");
+    if (moves>0){
+        move = moves;
+    }
+    else {
+        move = 10;
+    }
+};
+
+moves();
 let users = 0;
 let compsc = 0;
+
+
 
 choices.forEach((choice) => {
     choice.addEventListener("click", ()  => {
@@ -64,13 +76,14 @@ const Playgame = (userchoice) => {
 
 const showWinner = (userchoice,userwin,compchoice) => {
     if(userwin){
-        msg.innerText="You Win";
+
         users++;
         userscore.innerHTML=users;
+        msg.innerText = `You win! Your ${userchoice} beats ${compchoice}`;
 
     }
     else {
-        msg.innerText="You Lose";
+        msg.innerText= `You lost. ${compchoice} beats your ${userchoice}`;
         compsc++;
         compscore.innerHTML = compsc;
     }
@@ -119,9 +132,9 @@ const checkwinner = (compscore,userscore) => {
 };
 const newGame = () => {
     console.log("new game")
-    move = 10;
+    moves();
     users = 0;
-    compsc =0;
+    compsc = 0;
     userscore.innerHTML = users;
     compscore.innerText = compsc;
     moveleft.innerText = move;

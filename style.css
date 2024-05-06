@@ -4,16 +4,17 @@
     text-align: center;
 }
 body{
-    background-color: rgb(177, 254, 254);
+    background-color: #a9ffff;
 }
 header{
     text-align: center;
     justify-content: center;
-    background-color: crimson;
-    color:white;
+    background-color: white;
+    color:#2191FB;
     height: 60px;
     align-items: center;
     padding-top: 10px;
+    border: 3px dashed #fea985;
 }
 .namecard {
     display: flex;
@@ -21,17 +22,27 @@ header{
     align-items: center;
     gap: 8cm;
     margin-top: 10px;
+    color:#02111B
 }
 .namec{
     font-size: 25px;
-    padding-right: 10px;
+    background-color: #adfb71;
+    border-radius:10px ;
+    padding: 5px;
 }
 .move {
     font-size: 22px;
+    border-radius:10px ;
+    background-color: #fffd76;
+    padding: 5px;
+    margin-right: 10px;
 }
 .namep {
     font-size: 25px;
-    padding-left: 10px;
+    margin-right: 30px;
+    padding: 5px;
+    border-radius:10px ;
+    background-color: #adfb71;
 }
 .show {
     display: flex;
@@ -63,6 +74,9 @@ img {
     height: 200px;
     width: 200px;
 }
+.vs {
+    color: #ff0000;
+}
 .scoreboard {
     display: flex;
     align-items:center;
@@ -89,11 +103,12 @@ img {
     z-index: 1;
     align-items: center;
     justify-content: center;
-    background-color: rgb(253, 174, 174);
+    background-color: rgb(250, 124, 124);
     bottom: 5.5cm;
     left: 13.8cm;
     font-size: 20px;
     border-radius: 15px;
+    color: aliceblue;
 }
 .winmsg1 {
     padding-top: 1cm;
