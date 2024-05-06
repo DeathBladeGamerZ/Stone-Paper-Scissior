@@ -82,3 +82,30 @@ img {
     margin-top: 20px;
     font-size: 20px;
 }
+.winmsgdiv {
+    height: 4cm;
+    width: 6cm;
+    position:fixed;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(253, 174, 174);
+    bottom: 5.5cm;
+    left: 13.8cm;
+    font-size: 20px;
+    border-radius: 15px;
+}
+.winmsg1 {
+    padding-top: 1cm;
+    text-align: center;
+}
+.newbtn {
+    margin-top: 20px;
+    height: 30px;
+    width: 120px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+.hide {
+    display: none;
+}
