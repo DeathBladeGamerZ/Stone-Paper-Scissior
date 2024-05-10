@@ -10,7 +10,7 @@ let winmsg1 = document.querySelector(".winmsg1");
 let winmsg2 = document.querySelector(".winmsg2");
 
 const moves = () => {
-    let moves = prompt("Enter Total no of Moves","10");
+    let moves = Math. abs(prompt("Enter Total no of Moves","10"));
     if (moves>0){
         move = moves;
     }
